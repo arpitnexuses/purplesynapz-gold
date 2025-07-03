@@ -2,8 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "*.html",
+      "src": "new212.html",
       "use": "@vercel/static"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/new212.html"
     }
   ],
   "headers": [
