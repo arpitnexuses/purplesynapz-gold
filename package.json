@@ -1,0 +1,26 @@
+{
+  "name": "purplegold-landing-page",
+  "version": "1.0.0",
+  "description": "PurpleGold Cybersecurity Certification Program Landing Page",
+  "main": "new212.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build step required'",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "cybersecurity",
+    "training",
+    "certification",
+    "landing-page",
+    "purplegold"
+  ],
+  "author": "PurpleGold",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
